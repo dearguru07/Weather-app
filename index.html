@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <i class="bi bi-cloud-sun"></i>
+      <h1>Weather App</h1>
+      <div class="flex">
+        <input type="text" placeholder="Enter city name" id="place">
+        <button onclick="weather()" class="btn">Search <i class="bi bi-search"></i></button>
+      </div>
+      <h2 id="degree">0°C</h2>
+      <h2 id="name">Place</h2>
+
+      <div class="flex">
+        <div class="wind">
+          <i class="bi bi-wind"></i>
+          <h2 id="wind" class="speed">0 KmpH</h2>
+          <h2 class="color">WindSpeed</h2>
+        </div>
+
+        <div class="wind">
+          <i class="bi bi-cloud-fog"></i>
+          <h2 id="foog">0%</h2>
+          <h2>Humidity</h2>
+        </div>
+
+        <div class="wind">
+          <i class="bi bi-hurricane"></i>
+          <h2 id="pressure">0 Pr</h2>
+          <h2>Pressure</h2>
+        </div>
+
+        <div class="wind">
+          <i class="bi bi-thermometer-high"></i>
+          <h2 id="Max-Temp">0°C</h2>
+          <h2>Max-Temp</h2>
+        </div>
+
+        <div class="wind">
+          <i class="bi bi-thermometer-low"></i>
+          <h2 id="Min-temp">0°C</h2>
+          <h2>Min-Temp</h2>
+        </div>
+        
+        <div class="wind">
+          <i class="bi bi-android"></i>
+          <h2 id="idnbr">0</h2>
+          <h2>ID</h2>
+        </div>
+
+        <div class="wind">
+          <i class="bi bi-water "></i>
+          <h2 id="seelevel">0 Fts</h2>
+          <h2>See Level</h2>
+        </div>
+
+        <div class="wind">
+          <i class="bi bi-clouds"></i>
+          <h2 id="Clouds">0</h2>
+          <h2>Clouds</h2>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
