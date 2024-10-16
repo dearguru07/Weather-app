@@ -5,10 +5,10 @@ body {
 }
 .container {
   width: 1000px;
-  margin: 30px auto;
+  margin: 50px auto;
   border-radius: 30px;
   padding: 20px;
-  background: #acd5ebb4;
+  background: #9aff6fb4;
   box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
   text-align: center;
 }

@@ -18,8 +18,8 @@ function weather() {
       return response.json();
     })
     .then(function (data) {
-      // console.log(data);
       name.innerHTML = data.name;
+      // console.log(data);
       degrees.innerHTML = Math.floor(data.main.feels_like - 273) + "°C";
       windSpeed.innerHTML = data.wind.speed + "KmpH";
       fog.innerHTML = data.main.humidity + "%";
@@ -29,5 +29,6 @@ function weather() {
       id.innerHTML = data.sys.id;
       seelevel.innerHTML = data.main.sea_level;
       clouds.innerHTML = data.clouds.all;
+      place.value = "";
     });
 }
